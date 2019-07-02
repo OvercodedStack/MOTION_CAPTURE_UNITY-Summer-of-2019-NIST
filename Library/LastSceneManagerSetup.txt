@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UnnyNet/Example/UnnyNet_Example.unity
+  isLoaded: 1
+  isActive: 1
