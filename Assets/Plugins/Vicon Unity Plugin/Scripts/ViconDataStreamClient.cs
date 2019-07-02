@@ -240,7 +240,7 @@ public class ViconDataStreamClient : MonoBehaviour
         //print(out_4.MarkerCount);
         //print(out_3.SubjectName);
         //print(output.MarkerCount);
-        data_UI.GetComponent<Image>().color = new Color32(0, 255, 0, 100);
+        //data_UI.GetComponent<Image>().color = new Color32(0, 255, 0, 100);
        // print(out_4.SegmentName);
         //print(out_5.Translation[0]);
         //print(output.Result);

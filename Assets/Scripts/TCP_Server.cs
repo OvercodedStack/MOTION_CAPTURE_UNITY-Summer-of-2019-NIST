@@ -31,7 +31,7 @@ namespace TPC_Server
         public string IPC_comms_message = "null_msg";
         public string IPC_output = "null";
         public string IP_adress = "127.0.0.1";
-        public int Port_adress = 27000;
+        public int Port_adress = 27005;
         // Update is called once per frame
         [Range(0.1F, 20)]
         public float delay_time = 2.0F;
@@ -75,12 +75,12 @@ namespace TPC_Server
                 tcpListener = new TcpListener(IPAddress.Any, Port_adress);
                 tcpListener.Start();
                 Debug.Log("Server is listening");
-                Console.WriteLine("Server started!");
                 Byte[] bytes = new Byte[1024];
                 while (true)
                 {
                     connectedTcpClient = tcpListener.AcceptTcpClient();
                     {
+                        Debug.Log("Incoming");
                         // Get a stream object for reading 					
                         using (NetworkStream stream = connectedTcpClient.GetStream())
                         {
@@ -98,10 +98,10 @@ namespace TPC_Server
                         }
                     }
                 }
+
             }
             catch (SocketException socketException)
             {
-                Console.WriteLine("Server did not start!");
                 Debug.Log("SocketException " + socketException.ToString());
             }
         }
