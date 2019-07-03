@@ -42,9 +42,27 @@ public class Minimal_change_robots : MonoBehaviour
                 selected_robot = "None";
             }
         }
-        server.set_msg(selected_robot);
+        server.set_msg(decode_str(selected_robot) + ";\n");
     }
 
+    string decode_str(string word)
+    {
+        switch (word)
+        {
+            case "UR5":
+                return "1";
+            case "UR10L":
+                return "2";
+            case "UR10R":
+                return "3";
+            case "ABBL":
+                return "4";
+            case "ABBR":
+                return "5";
+            default:
+                return "0";
+        }
+    }
     //Get the robot (manual override); 
     public string get_robot()
     {
