@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IPC_comms_message: null_msg
   IPC_output: null
-  IP_adress: 169.254.152.2
+  IP_adress: 127.0.0.1
   Port_adress: 27001
   delay_time: 2
 --- !u!114 &2104986479

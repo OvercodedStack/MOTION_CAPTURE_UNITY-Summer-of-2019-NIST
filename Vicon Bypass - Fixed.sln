@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vicon Bypass - Fixed.Plugin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vicon Bypass - Fixed.Editor.Plugins", "Vicon Bypass - Fixed.Editor.Plugins.csproj", "{13A51857-1B5D-14C3-476E-A5E8C85BE867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vicon Bypass - Fixed.Editor", "Vicon Bypass - Fixed.Editor.csproj", "{870D259D-0D87-4645-5F6E-363CBDE2ADB5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{13A51857-1B5D-14C3-476E-A5E8C85BE867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A51857-1B5D-14C3-476E-A5E8C85BE867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A51857-1B5D-14C3-476E-A5E8C85BE867}.Release|Any CPU.Build.0 = Release|Any CPU
-		{870D259D-0D87-4645-5F6E-363CBDE2ADB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{870D259D-0D87-4645-5F6E-363CBDE2ADB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{870D259D-0D87-4645-5F6E-363CBDE2ADB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{870D259D-0D87-4645-5F6E-363CBDE2ADB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

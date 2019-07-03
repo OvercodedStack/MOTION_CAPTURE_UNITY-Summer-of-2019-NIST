@@ -22,7 +22,6 @@ public class Minimal_change_robots : MonoBehaviour
     {
         server = GetComponent<TCP_Server>();
         selected_robot = "None";
-        change_robot = false;
         old_time = Time.time;
     }
 
@@ -31,11 +30,7 @@ public class Minimal_change_robots : MonoBehaviour
     void Update()
     {
         float now_time = Time.time;
-        if (now_time > old_time + 5 && change_robot)
-        {
-            change_robot = !change_robot;
-            }
-        else if (change_robot)
+        if (now_time > old_time + 5)
         {
             try
             {
