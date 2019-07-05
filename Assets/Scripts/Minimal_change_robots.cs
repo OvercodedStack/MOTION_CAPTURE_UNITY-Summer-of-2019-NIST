@@ -42,7 +42,7 @@ public class Minimal_change_robots : MonoBehaviour
                 selected_robot = "None";
             }
         }
-        server.set_msg(decode_str(selected_robot) + ";\n");
+        server.set_msg("$" + decode_str(selected_robot) + ";#\n");
     }
 
     string decode_str(string word)
