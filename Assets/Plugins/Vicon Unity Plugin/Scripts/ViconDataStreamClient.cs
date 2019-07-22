@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Threading;
-using UnityEngine.UI;
 using ViconDataStreamSDK.CSharp;
 
 
@@ -41,7 +40,6 @@ public class ViconDataStreamClient : MonoBehaviour
     private bool bSubjectFilterSet = false;
     private bool bThreadRunning = false;
     Thread m_Thread;
-    public Image data_UI;
 
     public delegate void ConnectionCallback(bool i_bConnected);
     public static void OnConnected(bool i_bConnected)
