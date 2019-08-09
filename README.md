@@ -15,7 +15,7 @@ As Github limits the size of uploads, this project will be limited to only inclu
 4.	Delete all the files inside the folder and copy all repository files into the folder
 5.	You’ve successfully installed the project into unity
 
-### Useage
+### Usage
 
 To start this app, simply open the unity project in unity and press play in the editor  
 
