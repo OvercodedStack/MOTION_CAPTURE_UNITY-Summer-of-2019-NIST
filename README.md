@@ -3,6 +3,9 @@
 ### Introduction 
 Part of the larger project related with CRPI and Unity integration with an experimental user interface app for Android. This user interface is intended to operate as part of a larger system incorporating the use of a motion capture system interface. This system would use of a wearable motion capture object and locate objects by observing other objects being tracked as well.
 
+Preview of app: 
+![alt-text](https://github.com/OvercodedStack/CRPI-UI-DOCUMENTATION-Summer-of-2019/blob/master/Images/Vicon%20app%20preview.PNG?raw=true)
+
 The following image is a representation of this wearable object. 
 ![alt-text](https://raw.githubusercontent.com/OvercodedStack/CRPI-UI-DOCUMENTATION-Summer-of-2019/master/Images/IMG_0007.JPG)
 
